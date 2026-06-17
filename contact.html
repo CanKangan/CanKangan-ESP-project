@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -49,6 +49,14 @@
                 <label for="message">Message</label>
                 <textarea id="message" name="message" rows="6"
                           placeholder="Write your message here..." required></textarea>
+
+                <label for="prototype">Which prototype are you interested in?</label>
+                <select id="prototype" name="prototype" required>
+                    <option value="" disabled selected>Select a prototype...</option>
+                    <option value="Prototype 1">Prototype 1</option>
+                    <option value="Prototype 2">Prototype 2</option>
+                    <option value="Final Design">Final Design</option>
+                </select>
 
                 <button type="submit">Send Message</button>
 

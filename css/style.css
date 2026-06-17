@@ -75,6 +75,17 @@ input, textarea {
     padding: 10px;
 }
 
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 16px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    background-color: #fff;
+}
+
 button {
     background: #00bcd4;
     color: white;
