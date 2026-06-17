@@ -70,20 +70,16 @@ h1, h2 {
     margin: auto;
 }
 
-input, textarea {
+input, textarea, select {
+    width: 100%;
     margin: 10px 0;
     padding: 10px;
-}
-
-select {
-    width: 100%;
-    padding: 10px;
-    margin: 8px 0 16px 0;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     font-size: 1rem;
     background-color: #fff;
+    font-family: inherit;
 }
 
 button {
